@@ -19,8 +19,8 @@ header > p{
 }
 
 .sidebar {
-    height: fixed;
-    width: 200px;
+    height:650px;
+    width: 170px;
     background-color: #f0f0f0;
     padding: 20px;
   }
@@ -39,12 +39,46 @@ header > p{
     color: #333;
   }
 
-  div > nav > ul > li > .MenuTelaUsuario:hover{
-    text-decoration: underline;
-    color: blue;
-    background-color: gray;
+  nav > ul > li > a:hover{
+    font-weight: bolder;
+    transition: 0.4s;
   }
-  div > nav > ul > li > .MenuTelaUsuario{
+   nav > ul > li > .MenuTelaUsuario{
     position: relative;
-    top: 600px;
+    top: -150px;
+    left: 1120px;
+    background-color: rgb(131, 134, 134);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+  }
+
+  main{
+    position: absolute;
+    top: 250px;
+    left: 25%;
+    height: 450px;
+    width: 800px;
+    box-shadow: 1px 1px 1px 1px black;
+
+  }
+
+  main > .QuadroDeVagas{
+    text-align: center;
+    font-family: 'Roboto';
+    color: black;
+    
+  }
+
+   .QuantidadeDeVagas{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    height: 110px;
+    width: 130px;
+    background-color: gray;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
   }
