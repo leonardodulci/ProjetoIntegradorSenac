@@ -30,20 +30,21 @@
             <li><a href="telaUsuário.html" class="MenuTelaUsuario">Ir para tela usuário</a></li>
           </ul>
         </nav>
+    <div class="InfoUltimaVaga">
+      <p>Última vaga ocupada:</p><br>
+        <span class="info-vaga">
+        </span>
+    </div>
     
-      <span class="info-vaga"></span>
-      <div id="vagas-ocupadas">
-        <h2>Vagas Ocupadas</h2>
-        <ul id="lista-vagas">
-        </ul>
-      </div>
        <aside>
-            <div class="QuantidadeDeVagas">
+            <span class="QuantidadeDeVagas">
               <img src="img/iconeEstacionamento.png" alt="iconeEstacionamento" srcset="" class="iconeVagas">
-              <p class="TotalDeVagas">Total de vagas: 50</p><br><br>
-              <p>Ocupadas: 0</p><br>
-              <p>Livres: 50</p>
-            </div>
+              <span class="quadroContagem">
+                <p>Total de vagas:<span id="total-vagas"></span></p><br><br>
+                <span id="vagas-ocupadas"></span><br>
+                <span id="vagas-livres"></span>
+              </span>
+            </span>
 
             <div class="ValorMensal">
               <img src="img/iconeValorMensal.png" alt="iconeEstacionamento" srcset="" class="iconeVagas"><br>
@@ -133,11 +134,6 @@
       </main>
 
       <script src="vagas.js"></script>
+      <script src="vagasOcupadas.js"></script>
 </body>
 </html>
-
-<div class="vagas-ocupadas">
-  <h2>Vagas Ocupadas</h2>
-  <ul id="lista-vagas-ocupadas">
-    </ul>
-</div>

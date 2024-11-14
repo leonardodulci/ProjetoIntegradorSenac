@@ -24,8 +24,15 @@ function marcarVaga(vaga) {
   const mensagem = dadosVaga;
   // Exibe as informações da vaga ocupada (opcional)
 
-  console.log(`Vaga ${vaga.textContent} ocupada por ${placa} às ${horaEntrada}`);
+  console.log(`Vaga ${vaga.textContent} ocupada por ${placa} às ${horaEntrada} horas`);
+
+  const resultadoElement = document.querySelector('span.info-vaga');
+
+  resultadoElement.textContent = `Vaga ${vaga.textContent} ocupada por ${placa} às ${horaEntrada} horas`;
+
+
 }
+
 
 // Adiciona o event listener a cada vaga
 vagas.forEach(vaga => {

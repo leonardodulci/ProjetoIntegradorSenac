@@ -9,6 +9,10 @@
     padding: 0px;
 }
 
+body{
+  height: 640px;
+}
+
 header{
     background-color: gray;
     padding: 20px;
@@ -19,7 +23,7 @@ header > p{
 }
 
 .sidebar {
-    height:450px;
+    height:540px;
     width: 170px;
     background-color: #f0f0f0;
     padding: 20px;
@@ -86,7 +90,7 @@ header > p{
   .iconeVagas{
     width: 40px;
   }
-  .TotalDeVagas{
+  .total-vagas{
     position: absolute;
     top: 35px;
     left: 75px;
@@ -164,4 +168,15 @@ header > p{
 
 .ocupada {
     background-color: red; /* Cor das vagas ocupadas */
+}
+
+.InfoUltimaVaga{
+  text-align: center;
+  height: 100px;
+  width: 210px;
+  background-color: gray;
+
+  position: absolute;
+  top: 550px;
+  
 }
